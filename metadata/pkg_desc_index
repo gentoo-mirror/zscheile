@@ -62,7 +62,7 @@ media-sound/streamripper 1.9999: Extracts and records individual MP3 file tracks
 media-sound/zsaus 0.1: Zscheile Remote Audio Suite using ALSA
 media-sound/zsmusicd 0.0.1 0.0.2: Zscheile Music Daemon
 net-analyzer/zs-apc-spdu-ctl 9999: Zscheile APC switched PDU control
-net-analyzer/zs-wait4host 0.3.2 0.3.2-r1: Wait for a host to come up / shut down
+net-analyzer/zs-wait4host 0.3.2 0.3.2-r2: Wait for a host to come up / shut down
 net-dns/resolvconfctl 0.0.1: resolvconfctl - another /etc/resolv.conf manager
 net-libs/rpcsvc-proto 0: rpcsvc protocol definitions from glibc
 net-misc/zadist 0.1.2: ZADist - Zscheile Automatic Distributor Client
