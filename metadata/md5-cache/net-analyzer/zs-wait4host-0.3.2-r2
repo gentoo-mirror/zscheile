@@ -9,4 +9,4 @@ RDEPEND=net-analyzer/fping
 SLOT=0
 SRC_URI=mirror://ytrizja/zs-wait4host-0.3.2.tar.gz
 _eclasses_=zserik-minimal	383e72ea9fc688260058a897ca115586	zserik-virtual	2f0a52cafc77287ca8fabf2c1a498e04
-_md5_=32e785151b9254eb4f3439ec20dece85
+_md5_=134727536b0012053070af755d5c1468
