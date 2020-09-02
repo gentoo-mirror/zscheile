@@ -7,5 +7,5 @@ LICENSE=GPL-2+
 PROPERTIES=live
 RDEPEND=dev-libs/libisoburn dev-util/arch-install-scripts sys-fs/btrfs-progs sys-fs/dosfstools sys-fs/squashfs-tools www-client/lynx
 SLOT=0
-_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
 _md5_=d3d12cfd474653b6acf745568a630112
