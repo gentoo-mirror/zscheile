@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure setup
+DEPEND=ada_target_gnat_2017? ( dev-lang/gnat-gpl:6.3.0 ) ada_target_gnat_2018? ( dev-lang/gnat-gpl:7.3.1 ) ada_target_gnat_2019? ( dev-lang/gnat-gpl:8.3.1 )
+DESCRIPTION=VHDL 2008/93/87 simulator
+EAPI=7
+HOMEPAGE=http://ghdl.free.fr/
+IUSE=ada_target_gnat_2017 ada_target_gnat_2018 ada_target_gnat_2019 -ada_target_gnat_2016
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=ada_target_gnat_2017? ( dev-lang/gnat-gpl:6.3.0 ) ada_target_gnat_2018? ( dev-lang/gnat-gpl:7.3.1 ) ada_target_gnat_2019? ( dev-lang/gnat-gpl:8.3.1 )
+REQUIRED_USE=^^ ( ada_target_gnat_2017 ada_target_gnat_2018 ada_target_gnat_2019 )
+SLOT=0
+SRC_URI=https://github.com/ghdl/ghdl/archive/v0.37.tar.gz -> ghdl-0.37.tar.gz
+_eclasses_=ada	2e62916779222e4f23755b01896c54af
+_md5_=ef0b27b75a12556ac33b145087be27b1
