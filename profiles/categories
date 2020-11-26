@@ -16,13 +16,12 @@ games-misc
 media-metad
 media-sound
 net-analyzer
-net-dns
 net-libs
 net-misc
+sci-electronics
 sys-apps
 sys-cluster
 sys-process
 virtual
 x11-themes
-zeik-handles
 zsrop-legacy
