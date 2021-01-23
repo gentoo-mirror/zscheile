@@ -10,5 +10,5 @@ LICENSE=LGPL-2.1
 RDEPEND=>=dev-lang/ocaml-4.09.0:= >=dev-ml/dune-2.0:* dev-ml/dune-configurator:= x11-libs/libX11:= >=dev-lang/ocaml-4:=[ocamlopt?]
 SLOT=0/5.1.0
 SRC_URI=https://github.com/ocaml/graphics/archive/5.1.0.tar.gz -> graphics-5.1.0.tar.gz
-_eclasses_=dune	31e50aa986270c1f8ba957a9dd3f6fcf
+_eclasses_=dune	47ad7c3f0508f77304c2d036ca24bcfa
 _md5_=ce727fefba4d9a1aa08974a5c422c8e8
