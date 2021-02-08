@@ -1,9 +1,0 @@
-DEFINED_PHASES=install postinst unpack
-DESCRIPTION=Repository list for Archlinux's binary package manager
-EAPI=7
-HOMEPAGE=https://www.archlinux.org/mirrorlist/
-KEYWORDS=amd64
-LICENSE=GPL-2
-PROPERTIES=live
-SLOT=0
-_md5_=37495e2565ed087cb2e4b84ad2d688b4
