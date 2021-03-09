@@ -10,7 +10,7 @@ app-misc/zout-ng 0.0.3.2: Zscheile (Action) Output Formatting Tool - Next Genera
 app-misc/zsgcfgfpath 0.0.4: get config file path - gentoo cfg-filename determine utility
 app-misc/zsjed 0.3: Zscheile data split semi-steganography tool
 app-misc/zsrecursil 0.0.9: ZS Recursil - directory recursion tool
-dev-db/zsdatab 0.2.8 0.2.9 0.3.0: Zscheile data text table Management
+dev-db/zsdatab 0.2.8 0.2.9 0.3.0 0.3.1: Zscheile data text table Management
 dev-db/zstreedb2 0.0.4: Zscheile tree text database Management Util 2
 dev-lang/crulz 0.0.7: a rust implementation of the 'crulz' macro language interpreter
 dev-libs/cgicc 3.2.19: A C++ class library for writing CGI applications
