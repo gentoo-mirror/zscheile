@@ -3,6 +3,7 @@ DEPEND=x11-wm/icewm xfce-base/xfdesktop zsrop-legacy/xinit
 DESCRIPTION=X11 session script for a combination of xfdesktop and icewm
 EAPI=6
 HOMEPAGE=https://ytrizja.de/zsropm/
+INHERIT=zsrop-legacy
 KEYWORDS=amd64 x86
 LICENSE=GPL-2
 RDEPEND=x11-wm/icewm xfce-base/xfdesktop zsrop-legacy/xinit

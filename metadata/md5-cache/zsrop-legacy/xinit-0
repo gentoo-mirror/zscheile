@@ -3,6 +3,7 @@ DEPEND=x11-apps/xinit
 DESCRIPTION=Xinit Zscheile minimal configuration
 EAPI=6
 HOMEPAGE=https://ytrizja.de/zsropm/
+INHERIT=zsrop-legacy
 KEYWORDS=amd64 arm x86
 LICENSE=GPL-2
 RDEPEND=x11-apps/xinit

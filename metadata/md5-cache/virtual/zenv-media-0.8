@@ -1,6 +1,7 @@
 DEFINED_PHASES=-
 DESCRIPTION=Erik Zscheile: media environment
 EAPI=7
+INHERIT=zs-virtual
 IUSE=gstreamer jack pulseaudio
 KEYWORDS=arm amd64 x86
 RDEPEND=media-sound/alsa-utils gstreamer? ( media-plugins/gst-plugins-meta[alsa,jack?,pulseaudio?] ) jack? ( media-sound/jack-audio-connection-kit[alsa] ) pulseaudio? ( !media-sound/apulse media-sound/paprefs media-sound/pavucontrol media-sound/pavumeter )
