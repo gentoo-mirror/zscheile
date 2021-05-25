@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure prepare setup
-DEPEND=ada_target_gnat_2017? ( dev-lang/gnat-gpl:6.3.0 ) ada_target_gnat_2018? ( dev-lang/gnat-gpl:7.3.1 ) ada_target_gnat_2019? ( dev-lang/gnat-gpl:8.3.1 ) <sys-devel/llvm-12:= || ( sys-devel/llvm:10 sys-devel/llvm:11 ) !!sys-devel/llvm:0
+DEPEND=ada_target_gnat_2017? ( dev-lang/gnat-gpl:6.3.0 ) ada_target_gnat_2018? ( dev-lang/gnat-gpl:7.3.1 ) ada_target_gnat_2019? ( dev-lang/gnat-gpl:8.3.1 ) <sys-devel/llvm-11.1:= || ( sys-devel/llvm:10 sys-devel/llvm:11 ) !!sys-devel/llvm:0
 DESCRIPTION=VHDL 2008/93/87 simulator
 EAPI=7
 HOMEPAGE=http://ghdl.free.fr/
@@ -7,9 +7,9 @@ INHERIT=ada multilib llvm
 IUSE=synth ada_target_gnat_2017 ada_target_gnat_2018 ada_target_gnat_2019 -ada_target_gnat_2016 -ada_target_gnat_2020
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=ada_target_gnat_2017? ( dev-lang/gnat-gpl:6.3.0 ) ada_target_gnat_2018? ( dev-lang/gnat-gpl:7.3.1 ) ada_target_gnat_2019? ( dev-lang/gnat-gpl:8.3.1 ) <sys-devel/llvm-12:= || ( sys-devel/llvm:10 sys-devel/llvm:11 )
+RDEPEND=ada_target_gnat_2017? ( dev-lang/gnat-gpl:6.3.0 ) ada_target_gnat_2018? ( dev-lang/gnat-gpl:7.3.1 ) ada_target_gnat_2019? ( dev-lang/gnat-gpl:8.3.1 ) <sys-devel/llvm-11.1:= || ( sys-devel/llvm:10 sys-devel/llvm:11 )
 REQUIRED_USE=^^ ( ada_target_gnat_2017 ada_target_gnat_2018 ada_target_gnat_2019 ) synth? ( ada_target_gnat_2019 )
 SLOT=0
 SRC_URI=https://github.com/ghdl/ghdl/archive/v1.0.0.tar.gz -> ghdl-1.0.0.tar.gz
 _eclasses_=ada	f74396bdb52e86a692e8519a345ea27c	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	llvm	e00745e3b8d63dc13bfe5a2d7310ee6b
-_md5_=0d26e1e67274dd510aba13b4de4830c0
+_md5_=df74ce280a7d9bc6764e39a4cda4781b
