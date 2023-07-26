@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=x11-apps/xinit
+DESCRIPTION=Xinit Zscheile minimal configuration
+EAPI=7
+HOMEPAGE=https://ytrizja.de/zsropm/
+INHERIT=zsrop-legacy
+KEYWORDS=amd64 arm x86
+LICENSE=GPL-2
+RDEPEND=x11-apps/xinit
+SLOT=0
+SRC_URI=https://ytrizja.de/zsropm/xinit.tar.gz -> zsrop-legacy-xinit-0.tar.gz
+_eclasses_=zsrop-legacy	9982d1f755fcbd8e7ec1898794a4b389
+_md5_=f0548e78094b97ab422e8a4777c15e15

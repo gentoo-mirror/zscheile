@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=x11-wm/icewm xfce-base/xfdesktop zsrop-legacy/xinit
+DESCRIPTION=X11 session script for a combination of xfdesktop and icewm
+EAPI=7
+HOMEPAGE=https://ytrizja.de/zsropm/
+INHERIT=zsrop-legacy
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=x11-wm/icewm xfce-base/xfdesktop zsrop-legacy/xinit
+SLOT=0
+SRC_URI=https://ytrizja.de/zsropm/xfice.tar.gz -> zsrop-legacy-xfice-0.tar.gz
+_eclasses_=zsrop-legacy	9982d1f755fcbd8e7ec1898794a4b389
+_md5_=2b10dc8e57dfd4b67d5a7ed83c28dc2b
