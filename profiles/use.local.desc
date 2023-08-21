@@ -3,7 +3,6 @@
 # * generated automatically using pmaint *
 
 app-misc/mat2:nautilus - Add support for the nautilus context-menu
-dev-lang/crulz:compile - enable byte-compiling (incl. reusing compilates) support
 dev-misc/zsppr:zsdatab - Add support for the zsppr "form letter" feature based on zsdatab
 net-misc/mosh:client - Build network client
 net-misc/mosh:examples - Include example scripts
