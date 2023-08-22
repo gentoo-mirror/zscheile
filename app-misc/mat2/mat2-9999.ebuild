@@ -2,7 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-PYTHON_COMPAT=( python3_{10,11} )
+PYTHON_COMPAT=( python3_{10..12} )
+DISTUTILS_USE_PEP517=setuptools
 DISTUTILS_SINGLE_IMPL=1
 HOMEPAGE="https://0xacab.org/jvoisin/mat2.git"
 
@@ -40,6 +41,9 @@ $(python_gen_cond_dep '
 dev-python/setuptools[${PYTHON_USEDEP}]
 ')"
 
+BDEPEND+="
+	app-arch/unzip"
+
 RDEPEND+="${CMDEPEND}
 nautilus? ( dev-python/nautilus-python:* )"
 
@@ -54,6 +58,7 @@ python_install_all() {
 	fi
 
 	doman doc/mat2.1
+	rm -rf "${ED}/usr/man"
 
 	distutils-r1_python_install_all
 }
