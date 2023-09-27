@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install
+DEPEND=dev-db/sqlite:3 dev-libs/glib:2
+DESCRIPTION=Btrfs and xfs deduplication utility
+EAPI=8
+HOMEPAGE=https://github.com/markfasheh/duperemove/
+INHERIT=toolchain-funcs
+KEYWORDS=amd64 ~ppc64 x86
+LICENSE=GPL-2
+RDEPEND=dev-db/sqlite:3 dev-libs/glib:2
+SLOT=0
+SRC_URI=https://github.com/markfasheh/duperemove/archive/c38f546d8e04833ca298fd600d62b9949023e25c.tar.gz -> duperemove-0.12.p304.gh.tar.gz
+_eclasses_=toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_md5_=2088fea3f26c62ffab31a193462eb09a
