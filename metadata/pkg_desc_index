@@ -38,7 +38,7 @@ net-misc/nncp 8.8.3: a collection of utilities simplifying secure store-and-forw
 net-misc/zadist 0.1.2: ZADist - Zscheile Automatic Distributor Client
 net-misc/zprd 0.3.2.4: ZPRD - Zscheile Peer Routing Daemon
 sys-cluster/lizardfs 3.13.0_rc3: LizardFS is an Open Source Distributed File System licenced under GPLv3.
-sys-fs/duperemove 0.12 0.12_p304: Btrfs and xfs deduplication utility
+sys-fs/duperemove 0.12 0.12_p304-r1: Btrfs and xfs deduplication utility
 sys-process/zsdoitduring 0.0.1: Zscheile Do-It-During Process Spawning Helper
 virtual/bedrocklinux-meta 0.1: Bedrock Linux build-time meta package
 virtual/zenv-arduino 0.1: Alain Zscheile: Environment for Arduino IDE
