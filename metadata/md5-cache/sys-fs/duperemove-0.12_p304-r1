@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=dev-db/sqlite:3 dev-libs/glib:2
 SLOT=0
 SRC_URI=https://github.com/markfasheh/duperemove/archive/7a5c7fbb59a45162ac4ab70ce8eaf15050b20cbd.tar.gz -> duperemove-7a5c7fbb59a45162ac4ab70ce8eaf15050b20cbd.gh.tar.gz
-_eclasses_=toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
 _md5_=2114b90d2594ae30ea5d8a735ff8ba7a
