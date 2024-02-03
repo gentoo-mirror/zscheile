@@ -26,7 +26,7 @@ dev-misc/zsppr 0.1.0 0.1.1: Zscheile simple universal Preprocessor
 dev-misc/zsretry 0.0.2: zsretry - Zscheile Retry (wait for successfulness) utils
 dev-util/zcbuild 0.3: Zscheile CMake build script
 dev-util/zsgenheader 0.0.4: ZsGenHeader - generate header from c source file
-games-board/aisleriot 3.22.5: A collection of solitaire card games for GNOME
+games-board/aisleriot 3.22.30: A collection of solitaire card games for GNOME
 games-misc/wyel-sdl 0.0.8.1 0.0.8.2 9999: Zscheile WYEL Game - Advanced SDL version
 media-sound/zsaus 0.1: Zscheile Remote Audio Suite using ALSA
 media-sound/zsmusicd 0.0.1 0.0.2: Zscheile Music Daemon
