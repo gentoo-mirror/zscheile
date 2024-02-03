@@ -21,7 +21,6 @@ virtual/zenv-latex:l10n_de - Enable german lang pack
 virtual/zenv-latex:l10n_en - Enable english lang pack
 virtual/zenv-radio:ax25 - Enable AX.25 support
 virtual/zstdenv-client:games - install some games
-virtual/zstdenv-client:geosci - install additional applications for geo-science
 virtual/zstdenv-client:grub - pull in the GRUB bootloader
 virtual/zstdenv-client:xdm - install a X display manager
 virtual/zstdenv-client:xfce - pull in XFCE4
