@@ -10,6 +10,6 @@
 		<name>ML</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">ocaml/dune</remote-id>
+		<remote-id type="github">RedPRL/asai</remote-id>
 	</upstream>
 </pkgmetadata>
