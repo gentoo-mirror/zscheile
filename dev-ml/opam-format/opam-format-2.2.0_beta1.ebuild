@@ -25,9 +25,9 @@ RDEPEND="
 	>=dev-ml/mccs-1.1.17:=
 	dev-ml/re:=
 	dev-ml/spdx_licenses:=
+	dev-ml/opam-0install-cudf:=
 	~dev-ml/opam-core-${PV}:=
 	dev-ml/opam-file-format:=
-	>=dev-ml/opam-0install-solver-0.4:=
 "
 DEPEND="${RDEPEND}
 	dev-ml/cppo"
@@ -50,4 +50,13 @@ src_prepare() {
 		-e '/wrap-remove-commands/d' \
 		tests/reftests/opamroot-versions.test \
 		|| die
+}
+
+src_configure() {
+	econf \
+		--prefix="${EPREFIX}/usr" \
+		--with-mccs \
+		--disable-checks \
+		--docdir="${EPREFIX}/usr/share/doc/${PF}" \
+		--mandir="${EPREFIX}/usr/share/man"
 }
