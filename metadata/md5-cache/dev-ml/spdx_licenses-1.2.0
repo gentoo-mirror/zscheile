@@ -13,4 +13,4 @@ RESTRICT=test
 SLOT=0/1.2.0
 SRC_URI=https://github.com/kit-ty-kate/spdx_licenses/releases/download/v1.2.0/spdx_licenses-1.2.0.tar.gz
 _eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	beddc7cde467b2e48afc78a87d042c01
-_md5_=aa0657fb736a63faca989709907391df
+_md5_=417435a80efa1eb26ae3d82458a839ec

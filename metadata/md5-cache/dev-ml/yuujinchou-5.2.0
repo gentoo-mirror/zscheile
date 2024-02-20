@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0/5.2.0
 SRC_URI=https://github.com/RedPRL/yuujinchou/archive/refs/tags/5.2.0.tar.gz -> yuujinchou-5.2.0.tar.gz
 _eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	beddc7cde467b2e48afc78a87d042c01
-_md5_=757da11bdc6fe340a26c649b2d3d607a
+_md5_=4089444ea1cccd4c28beaa2d7d9a4351

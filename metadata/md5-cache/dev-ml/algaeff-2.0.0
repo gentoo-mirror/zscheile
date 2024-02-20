@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0/2.0.0
 SRC_URI=https://github.com/RedPRL/algaeff/archive/refs/tags/2.0.0.tar.gz -> algaeff-2.0.0.tar.gz
 _eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	beddc7cde467b2e48afc78a87d042c01
-_md5_=04dc335711ba1bbb584375d2d89b46d3
+_md5_=dafc08f5fd9dcbb47c3cfabef31ef3a3

@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0/0.3.0
 SRC_URI=https://github.com/RedPRL/asai/archive/refs/tags/0.3.0.tar.gz -> asai-0.3.0.tar.gz
 _eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	beddc7cde467b2e48afc78a87d042c01
-_md5_=e7a4f4bde48a2f9d117d97c60beb29b6
+_md5_=4de42d63fb0c9399026dd4981e26166a
