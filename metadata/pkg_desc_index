@@ -26,6 +26,7 @@ dev-misc/zs-shlib-extra 0.0.3: Zscheile Shell additional libraries
 dev-misc/zsppr 0.1.0 0.1.1: Zscheile simple universal Preprocessor
 dev-misc/zsretry 0.0.2: zsretry - Zscheile Retry (wait for successfulness) utils
 dev-ml/0install-solver 2.18: SAT-based package dependency solver
+dev-ml/alcotest 1.7.0-r1: A lightweight and colourful test framework
 dev-ml/algaeff 2.0.0: Reusable Effects-Based Components
 dev-ml/bwd 2.3.0: Backward lists
 dev-ml/camlbz2 0.7.9999.20230723: OCaml bindings for libbz (AKA, bzip2)
