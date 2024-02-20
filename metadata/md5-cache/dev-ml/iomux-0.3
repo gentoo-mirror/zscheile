@@ -1,0 +1,16 @@
+BDEPEND=dev-lang/ocaml dev-ml/dune
+DEFINED_PHASES=compile install test
+DEPEND=>=dev-lang/ocaml-4.08:=[ocamlopt?] >=dev-ml/dune-3.6 dev-ml/dune-configurator:* test? ( dev-ml/alcotest:* ) >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+DESCRIPTION=Unix IO Multiplexer bindings
+EAPI=8
+HOMEPAGE=https://github.com/haesbaert/ocaml-iomux
+INHERIT=dune
+IUSE=+ocamlopt test
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~riscv ~x86
+LICENSE=ISC
+RDEPEND=>=dev-lang/ocaml-4.08:=[ocamlopt?] >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+RESTRICT=!test? ( test )
+SLOT=0/0.3
+SRC_URI=https://github.com/haesbaert/ocaml-iomux/releases/download/v0.3/iomux-0.3.tbz
+_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	beddc7cde467b2e48afc78a87d042c01
+_md5_=f60a06600b7c102f8d63ae04aa7428ab
