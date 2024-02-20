@@ -1,0 +1,16 @@
+BDEPEND=dev-lang/ocaml dev-ml/dune
+DEFINED_PHASES=compile install test
+DEPEND=>=dev-lang/ocaml-4.12:=[ocamlopt?] >=dev-ml/cstruct-6.0.1:=[ocamlopt?] >=dev-ml/fmt-0.8.10:=[ocamlopt?] >=dev-ml/optint-0.1.0:=[ocamlopt?] >=dev-ml/dune-3.0 dev-ml/dune-configurator:* >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+DESCRIPTION=OCaml bindings for Linux io_uring
+EAPI=8
+HOMEPAGE=https://github.com/ocaml-multicore/ocaml-uring
+INHERIT=dune
+IUSE=+ocamlopt
+KEYWORDS=amd64 ~arm arm64 ~ppc ppc64 ~riscv x86
+LICENSE=|| ( ISC MIT )
+RDEPEND=>=dev-lang/ocaml-4.12:=[ocamlopt?] >=dev-ml/cstruct-6.0.1:=[ocamlopt?] >=dev-ml/fmt-0.8.10:=[ocamlopt?] >=dev-ml/optint-0.1.0:=[ocamlopt?] >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+RESTRICT=test
+SLOT=0/0.8
+SRC_URI=https://github.com/ocaml-multicore/ocaml-uring/releases/download/v0.8/uring-0.8.tbz
+_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	beddc7cde467b2e48afc78a87d042c01
+_md5_=9e6c9a559291cba26b4323fc768be977
