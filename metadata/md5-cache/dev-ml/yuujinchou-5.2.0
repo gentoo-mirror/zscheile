@@ -1,0 +1,16 @@
+BDEPEND=dev-lang/ocaml dev-ml/dune
+DEFINED_PHASES=compile install test
+DEPEND=>=dev-lang/ocaml-5.0:= >=dev-ml/algaeff-2.0:= >=dev-ml/bwd-2.2:= test? ( >=dev-ml/alcotest-1.5:* >=dev-ml/qcheck-0.18:* ) >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+DESCRIPTION=Library for hierarchical names and lexical scoping
+EAPI=8
+HOMEPAGE=https://github.com/RedPRL/yuujinchou
+INHERIT=dune
+IUSE=+ocamlopt test
+KEYWORDS=amd64 arm arm64 ~ppc ppc64 ~riscv x86
+LICENSE=LGPL-3
+RDEPEND=>=dev-lang/ocaml-5.0:= >=dev-ml/algaeff-2.0:= >=dev-ml/bwd-2.2:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+RESTRICT=!test? ( test )
+SLOT=0/5.2.0
+SRC_URI=https://github.com/RedPRL/yuujinchou/archive/refs/tags/5.2.0.tar.gz -> yuujinchou-5.2.0.tar.gz
+_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	beddc7cde467b2e48afc78a87d042c01
+_md5_=757da11bdc6fe340a26c649b2d3d607a

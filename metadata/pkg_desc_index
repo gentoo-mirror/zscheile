@@ -52,6 +52,7 @@ dev-ml/re 1.11.0: Regular expression library for OCaml
 dev-ml/spdx_licenses 1.2.0: Library providing a strict SPDX License Expression parser
 dev-ml/swhid_core 0.1: Library to work with Software Heritage persistent identifiers (swhids)
 dev-ml/xml-light 2.5: Minimal Xml parser and printer for OCaml
+dev-ml/yuujinchou 5.2.0: Library for hierarchical names and lexical scoping
 dev-util/zcbuild 0.3: Zscheile CMake build script
 dev-util/zsgenheader 0.0.4: ZsGenHeader - generate header from c source file
 games-board/aisleriot 3.22.30: A collection of solitaire card games for GNOME
