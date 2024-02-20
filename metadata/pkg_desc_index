@@ -25,6 +25,7 @@ dev-misc/zs-shlib-events 0.0.4.2: Zscheile Shell Library - events
 dev-misc/zs-shlib-extra 0.0.3: Zscheile Shell additional libraries
 dev-misc/zsppr 0.1.0 0.1.1: Zscheile simple universal Preprocessor
 dev-misc/zsretry 0.0.2: zsretry - Zscheile Retry (wait for successfulness) utils
+dev-ml/0install-solver 2.18: SAT-based package dependency solver
 dev-ml/camlbz2 0.7.9999.20230723: OCaml bindings for libbz (AKA, bzip2)
 dev-ml/cudf 0.10-r1: Library to parse, pretty print, and evaluate CUDF documents
 dev-ml/dose3 7.0.0-r1: Library to perform analysis on package repositories
@@ -34,6 +35,7 @@ dev-ml/jsonm 1.0.2: Non-blocking streaming JSON codec for OCaml
 dev-ml/mccs 1.1.17: Multi Criteria CUDF Solver
 dev-ml/ocaml-sha 1.15.1 1.15.2 1.15.4: Binding to the SHA cryptographic functions
 dev-ml/opam 2.1.5 2.2.0_beta1: A source-based package manager for OCaml
+dev-ml/opam-0install-solver 0.4.3: Opam solver using 0install backend using the CUDF interface
 dev-ml/opam-client 2.1.5 2.2.0_beta1: opam client libraries
 dev-ml/opam-core 2.1.5-r1 2.2.0_beta1: Core libraries for opam
 dev-ml/opam-format 2.1.5 2.2.0_beta1: Core libraries for opam
