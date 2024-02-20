@@ -3,6 +3,7 @@
 # * generated automatically using pmaint *
 
 app-misc/mat2:nautilus - Add support for the nautilus context-menu
+dev-lang/ocaml:flambda - Enables the Flambda optimizer: A new intermediate representation (introduced in ocaml 4.03) in the depths of the compiler designed to allow for better inlining.
 dev-misc/zsppr:zsdatab - Add support for the zsppr "form letter" feature based on zsdatab
 net-misc/mosh:client - Build network client
 net-misc/mosh:examples - Include example scripts
