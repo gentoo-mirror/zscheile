@@ -13,4 +13,4 @@ RESTRICT=test
 SLOT=0/2.2.0_beta1
 SRC_URI=https://github.com/ocaml/opam/releases/download/2.2.0-beta1/opam-full-2.2.0-beta1.tar.gz
 _eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	beddc7cde467b2e48afc78a87d042c01
-_md5_=a9f6845b1134b4a6f3bef13eb370ed4e
+_md5_=29a88563b679e04d178d642ca477ddaa

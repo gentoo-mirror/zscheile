@@ -30,6 +30,9 @@ dev-ml/cudf 0.10-r1: Library to parse, pretty print, and evaluate CUDF documents
 dev-ml/dose3 7.0.0-r1: Library to perform analysis on package repositories
 dev-ml/dune 3.14.0: A composable build system for OCaml
 dev-ml/extlib 1.7.9-r1: Standard library extensions for O'Caml
+dev-ml/jsonm 1.0.2: Non-blocking streaming JSON codec for OCaml
+dev-ml/mccs 1.1.17: Multi Criteria CUDF Solver
+dev-ml/ocaml-sha 1.15.1 1.15.2 1.15.4: Binding to the SHA cryptographic functions
 dev-ml/opam 2.1.5 2.2.0_beta1: A source-based package manager for OCaml
 dev-ml/opam-client 2.1.5 2.2.0_beta1: opam client libraries
 dev-ml/opam-core 2.1.5-r1 2.2.0_beta1: Core libraries for opam
@@ -40,6 +43,8 @@ dev-ml/opam-solver 2.1.5 2.2.0_beta1: opam solver
 dev-ml/opam-state 2.1.5 2.2.0_beta1: opam state libraries
 dev-ml/ppxlib 0.30.0-r1 0.32.0: Base library and tools for ppx rewriters
 dev-ml/re 1.11.0: Regular expression library for OCaml
+dev-ml/spdx_licenses 1.2.0: Library providing a strict SPDX License Expression parser
+dev-ml/swhid_core 0.1: Library to work with Software Heritage persistent identifiers (swhids)
 dev-ml/xml-light 2.5: Minimal Xml parser and printer for OCaml
 dev-util/zcbuild 0.3: Zscheile CMake build script
 dev-util/zsgenheader 0.0.4: ZsGenHeader - generate header from c source file
