@@ -37,6 +37,7 @@ dev-ml/opam-installer 2.1.5: Core installer for opam packages
 dev-ml/opam-repository 2.1.5: opam repository libraries
 dev-ml/opam-solver 2.1.5: opam solver
 dev-ml/opam-state 2.1.5: opam state libraries
+dev-ml/ppxlib 0.30.0-r1 0.32.0: Base library and tools for ppx rewriters
 dev-ml/re 1.11.0: Regular expression library for OCaml
 dev-ml/xml-light 2.5: Minimal Xml parser and printer for OCaml
 dev-util/zcbuild 0.3: Zscheile CMake build script
