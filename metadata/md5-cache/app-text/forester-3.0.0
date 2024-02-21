@@ -1,0 +1,15 @@
+BDEPEND=dev-lang/ocaml dev-ml/dune
+DEFINED_PHASES=compile install test
+DEPEND=>=dev-lang/ocaml-5.0:=[ocamlopt?] >=dev-ml/algaeff-2.0.0:= >=dev-ml/asai-0.2.0:= >=dev-ml/bwd-2.3.0:= >=dev-ml/cmdliner-1.2.0:= >=dev-ml/eio-0.13:= >=dev-ml/menhir-20211230:= >=dev-ml/ocamlgraph-2.1.0:= >=dev-ml/ptime-1.1.0:= >=dev-ml/xmlm-1.4.0:= >=dev-ml/yuujinchou-5.1.0:= >=dev-ml/dune-3.7 dev-ml/dune-build-info:* dev-ml/ppx_deriving:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+DESCRIPTION=A tool for tending mathematical forests
+EAPI=8
+HOMEPAGE=https://sr.ht/~jonsterling/forester/
+INHERIT=dune
+IUSE=+ocamlopt
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~riscv ~x86
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/ocaml-5.0:=[ocamlopt?] >=dev-ml/algaeff-2.0.0:= >=dev-ml/asai-0.2.0:= >=dev-ml/bwd-2.3.0:= >=dev-ml/cmdliner-1.2.0:= >=dev-ml/eio-0.13:= >=dev-ml/menhir-20211230:= >=dev-ml/ocamlgraph-2.1.0:= >=dev-ml/ptime-1.1.0:= >=dev-ml/xmlm-1.4.0:= >=dev-ml/yuujinchou-5.1.0:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+SLOT=0
+SRC_URI=https://git.sr.ht/~jonsterling/ocaml-forester/archive/3.0.0.tar.gz -> forester-3.0.0.tar.gz
+_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	beddc7cde467b2e48afc78a87d042c01
+_md5_=7cd58dc0e86940f3d5c839f8064b1bca
