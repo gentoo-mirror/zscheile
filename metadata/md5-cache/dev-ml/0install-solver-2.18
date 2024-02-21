@@ -7,10 +7,10 @@ HOMEPAGE=https://github.com/0install/0install
 INHERIT=dune
 IUSE=+ocamlopt test
 KEYWORDS=amd64 arm arm64 ~ppc ppc64 ~riscv x86
-LICENSE=LGPL-3
+LICENSE=LGPL-2.1-or-later
 RDEPEND=>=dev-lang/ocaml-4.08:=[ocamlopt=] >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 RESTRICT=!test? ( test )
 SLOT=0/2.18
 SRC_URI=https://github.com/0install/0install/releases/download/v2.18/0install-2.18.tbz
 _eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	beddc7cde467b2e48afc78a87d042c01
-_md5_=fd6407d28f25a8272164bc30a88066e9
+_md5_=fadb9916aad156828d1b9a5882c71b37

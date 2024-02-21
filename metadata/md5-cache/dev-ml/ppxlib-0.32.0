@@ -7,10 +7,10 @@ HOMEPAGE=https://github.com/ocaml-ppx/ppxlib
 INHERIT=dune
 IUSE=+ocamlopt test
 KEYWORDS=amd64 arm arm64 ~ppc ppc64 ~riscv x86
-LICENSE=Apache-2.0
+LICENSE=MIT
 RDEPEND=>=dev-ml/ocaml-compiler-libs-0.11.0:=[ocamlopt?] !<dev-ml/ocaml-migrate-parsetree-2.0.0 dev-ml/sexplib0:=[ocamlopt?] dev-ml/stdlib-shims:=[ocamlopt?] >=dev-ml/ppx_derivers-1.2.1:=[ocamlopt?] >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 RESTRICT=!test? ( test )
 SLOT=0/0.32.0
 SRC_URI=https://github.com/ocaml-ppx/ppxlib/archive/0.32.0.tar.gz -> ppxlib-0.32.0.tar.gz
 _eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	beddc7cde467b2e48afc78a87d042c01
-_md5_=938ee6cf0aaceb9503386f12f2504d8f
+_md5_=9b4829a1909562340f0392d7625551f4
