@@ -1,6 +1,6 @@
 BDEPEND=dev-lang/ocaml dev-ml/dune
 DEFINED_PHASES=compile install test
-DEPEND=>=dev-lang/ocaml-4.08:=[ocamlopt?] >=dev-ml/fmt-0.8.9:= >=dev-ml/logs-0.7.0:= dev-ml/iomux:= dev-ml/mtime:= dev-ml/psq:= >=dev-ml/uring-0.7:= >=dev-ml/dune-3.9 >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+DEPEND=>=dev-lang/ocaml-4.08:=[ocamlopt?] >=dev-ml/bigstringaf-0.9.0:= >=dev-ml/cstruct-6.0.1:= >=dev-ml/domain-local-await-0.1.0:= >=dev-ml/fmt-0.8.9:= dev-ml/hmap:= dev-ml/iomux:= >=dev-ml/logs-0.7.0:= dev-ml/lwt-dllist:= >=dev-ml/mtime-2.0.0:= >=dev-ml/optint-0.1.0:= >=dev-ml/psq-0.2.0:= >=dev-ml/uring-0.7:= >=dev-ml/dune-3.9 >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 DESCRIPTION=Effect-based direct-style IO mainloop
 EAPI=8
 HOMEPAGE=https://github.com/ocaml-multicore/eio
@@ -8,9 +8,9 @@ INHERIT=dune
 IUSE=+ocamlopt
 KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~riscv ~x86
 LICENSE=ISC
-RDEPEND=>=dev-lang/ocaml-4.08:=[ocamlopt?] >=dev-ml/fmt-0.8.9:= >=dev-ml/logs-0.7.0:= dev-ml/iomux:= dev-ml/mtime:= dev-ml/psq:= >=dev-ml/uring-0.7:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+RDEPEND=>=dev-lang/ocaml-4.08:=[ocamlopt?] >=dev-ml/bigstringaf-0.9.0:= >=dev-ml/cstruct-6.0.1:= >=dev-ml/domain-local-await-0.1.0:= >=dev-ml/fmt-0.8.9:= dev-ml/hmap:= dev-ml/iomux:= >=dev-ml/logs-0.7.0:= dev-ml/lwt-dllist:= >=dev-ml/mtime-2.0.0:= >=dev-ml/optint-0.1.0:= >=dev-ml/psq-0.2.0:= >=dev-ml/uring-0.7:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 RESTRICT=test
 SLOT=0/0.14
 SRC_URI=https://github.com/ocaml-multicore/eio/releases/download/v0.14/eio-0.14.tbz
 _eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	beddc7cde467b2e48afc78a87d042c01
-_md5_=52c9abacf1c2e54e356ad68a16d57164
+_md5_=685e1cd8327097d7e19bc799c294a95f
