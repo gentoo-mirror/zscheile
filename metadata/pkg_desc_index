@@ -37,6 +37,7 @@ dev-ml/cudf 0.10-r1: Library to parse, pretty print, and evaluate CUDF documents
 dev-ml/domain-local-await 1.0.1: A scheduler independent blocking mechanism
 dev-ml/dose3 7.0.0-r1: Library to perform analysis on package repositories
 dev-ml/dune 3.14.0: A composable build system for OCaml
+dev-ml/dune-rpc 3.7.1 3.10.0 3.11.0 3.12.2 3.13.0 3.14.0: Communicate with dune using rpc
 dev-ml/dyn 3.10.0 3.11.0 3.12.2 3.13.0 3.14.0: Dynamic type
 dev-ml/eio 0.14 0.14-r1: Effect-based direct-style IO mainloop
 dev-ml/extlib 1.7.9-r1: Standard library extensions for O'Caml
@@ -68,9 +69,11 @@ dev-ml/ppx_yojson_conv_lib 0.16.0: Runtime lib for ppx_yojson_conv
 dev-ml/ppxlib 0.30.0-r1 0.32.0: Base library and tools for ppx rewriters
 dev-ml/re 1.11.0: Regular expression library for OCaml
 dev-ml/spdx_licenses 1.2.0: Library providing a strict SPDX License Expression parser
+dev-ml/stdune 3.10.0 3.11.0 3.12.2 3.13.0 3.14.0: Dune's unstable standard library
 dev-ml/swhid_core 0.1: Library to work with Software Heritage persistent identifiers (swhids)
 dev-ml/thread-table 1.0.0: A lock-free thread-safe integer keyed hash table
 dev-ml/uring 0.8: OCaml bindings for Linux io_uring
+dev-ml/xdg 3.7.1 3.10.0 3.11.0 3.12.2 3.13.0 3.14.0: XDG Base Directory Specification
 dev-ml/xml-light 2.5: Minimal Xml parser and printer for OCaml
 dev-ml/yuujinchou 5.2.0: Library for hierarchical names and lexical scoping
 dev-util/zcbuild 0.3: Zscheile CMake build script
