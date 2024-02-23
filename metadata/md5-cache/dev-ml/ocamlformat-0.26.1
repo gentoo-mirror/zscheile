@@ -1,6 +1,6 @@
 BDEPEND=test? ( dev-ml/ounit2 >=dev-ml/cmdliner-1.2:= ) dev-lang/ocaml dev-ml/dune
 DEFINED_PHASES=compile install test
-DEPEND=>=dev-lang/ocaml-4.08:= <dev-lang/ocaml-5.2 >=dev-ml/cmdliner-1.1:= dev-ml/ocp-indent:= >=dev-ml/re-1.10.3:= dev-ml/uuseg:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+DEPEND=>=dev-lang/ocaml-4.08:= <dev-lang/ocaml-5.2 >=dev-ml/cmdliner-1.1:= dev-ml/ocaml-version:= dev-ml/ocp-indent:= >=dev-ml/re-1.10.3:= dev-ml/uuseg:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 DESCRIPTION=Auto-formatter for OCaml code
 EAPI=8
 HOMEPAGE=https://github.com/ocaml-ppx/ocamlformat
@@ -8,9 +8,9 @@ INHERIT=dune
 IUSE=+ocamlopt test
 KEYWORDS=~amd64 ~arm64 ~ppc64 ~riscv ~x86
 LICENSE=|| ( MIT LGPL-2.1-with-linking-exception )
-RDEPEND=>=dev-lang/ocaml-4.08:= <dev-lang/ocaml-5.2 >=dev-ml/cmdliner-1.1:= dev-ml/ocp-indent:= >=dev-ml/re-1.10.3:= dev-ml/uuseg:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+RDEPEND=>=dev-lang/ocaml-4.08:= <dev-lang/ocaml-5.2 >=dev-ml/cmdliner-1.1:= dev-ml/ocaml-version:= dev-ml/ocp-indent:= >=dev-ml/re-1.10.3:= dev-ml/uuseg:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 RESTRICT=!test? ( test )
 SLOT=0/0.26.1
 SRC_URI=https://github.com/ocaml-ppx/ocamlformat/releases/download/0.26.1/ocamlformat-0.26.1.tbz
 _eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	beddc7cde467b2e48afc78a87d042c01
-_md5_=44b94e4a31868245fad6537aab103837
+_md5_=d43bfdb7362fffaa000cfb8877909398
