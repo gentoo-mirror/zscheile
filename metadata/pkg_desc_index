@@ -14,6 +14,7 @@ app-misc/zsrecursil 0.0.9: ZS Recursil - directory recursion tool
 app-text/forester 3.0.0 3.1.0: A tool for tending mathematical forests
 dev-db/zsdatab 0.3.0 0.3.1: Zscheile data text table Management
 dev-db/zstreedb2 0.0.4: Zscheile tree text database Management Util 2
+dev-lang/ijs 9.5.1: terse, high-level programming language 'J', particularly for the mathematical, statistical, and logical analysis of data
 dev-lang/ocaml 5.1.1: Programming language supporting functional, imperative & object-oriented styles
 dev-lang/zig 0.11.0: A robust, optimal, and maintainable programming language
 dev-libs/libowlevelzs 0.1.1 9999: Zscheile Lowlevel library
