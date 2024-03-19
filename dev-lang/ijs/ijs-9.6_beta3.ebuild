@@ -4,13 +4,13 @@
 EAPI=8
 
 HOMEPAGE="https://www.jsoftware.com/"
-SRC_URI="https://github.com/jsoftware/jsource/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
-S="${WORKDIR}/jsource-${PV}"
+SRC_URI="https://github.com/jsoftware/jsource/archive/refs/tags/J${PV/_/-}.tar.gz"
+S="${WORKDIR}/jsource-J${PV/_/-}"
 DESCRIPTION="terse, high-level programming language 'J', particularly for the mathematical, statistical, and logical analysis of data"
 
 LICENSE="GPL-3"
 SLOT="0/${PV}"
-KEYWORDS="amd64 ~ia64 x86 amd64-linux x86-linux"
+KEYWORDS="~amd64 ~ia64 ~x86 ~amd64-linux ~x86-linux"
 
 RDEPEND="sys-libs/ncurses:="
 DEPEND="${RDEPEND}"
