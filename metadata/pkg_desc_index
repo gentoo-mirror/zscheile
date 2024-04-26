@@ -38,9 +38,12 @@ dev-ml/cudf 0.10-r1: Library to parse, pretty print, and evaluate CUDF documents
 dev-ml/domain-local-await 1.0.1: A scheduler independent blocking mechanism
 dev-ml/dose3 7.0.0-r1: Library to perform analysis on package repositories
 dev-ml/dune 3.14.0 3.15.0: A composable build system for OCaml
+dev-ml/dune-build-info 3.15.0: Embed locations informations inside executable and libraries
+dev-ml/dune-configurator 3.15.0: Helper library for gathering system configuration
+dev-ml/dune-private-libs 3.15.0: Private libraries of Dune
 dev-ml/dune-rpc 3.11.0 3.12.2 3.13.0 3.14.0 3.15.0: Communicate with dune using rpc
 dev-ml/dyn 3.11.0 3.12.2 3.13.0 3.14.0 3.15.0: Dynamic type
-dev-ml/eio 0.14 0.14-r1: Effect-based direct-style IO mainloop
+dev-ml/eio 0.14 0.14-r1 1.0: Effect-based direct-style IO mainloop
 dev-ml/extlib 1.7.9-r1: Standard library extensions for O'Caml
 dev-ml/fmt 0.9.0: Combinators to devise OCaml Format pretty-printing functions
 dev-ml/gen 1.1: Iterators for OCaml, both restartable and consumable
