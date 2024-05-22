@@ -71,7 +71,7 @@ dev-ml/opam-solver 2.1.5 2.2.0_beta1: opam solver
 dev-ml/opam-state 2.1.5 2.2.0_beta1: opam state libraries
 dev-ml/optint 0.3.0: Efficient integer types on 64-bit architectures
 dev-ml/ordering 3.11.0 3.12.2 3.13.0 3.14.0 3.15.0: Element ordering
-dev-ml/ppx_deriving 5.2.1-r3: Type-driven code generation for OCaml
+dev-ml/ppx_deriving 5.2.1-r3 6.0.1: Type-driven code generation for OCaml
 dev-ml/ppx_yojson_conv_lib 0.16.0: Runtime lib for ppx_yojson_conv
 dev-ml/ppxlib 0.32.0 0.32.1: Base library and tools for ppx rewriters
 dev-ml/re 1.11.0: Regular expression library for OCaml
