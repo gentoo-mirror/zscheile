@@ -12,5 +12,5 @@ RDEPEND=>=dev-lang/ocaml-4.07:=[ocamlopt=] >=dev-lang/ocaml-4:=[ocamlopt?] dev-m
 RESTRICT=test
 SLOT=0/0.3.0
 SRC_URI=https://github.com/mirage/optint/releases/download/v0.3.0/optint-0.3.0.tbz
-_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	beddc7cde467b2e48afc78a87d042c01
+_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	339df00cc31668d437589817d093748d
 _md5_=ffb3b9e3c6cb5eb51109877c42004888
