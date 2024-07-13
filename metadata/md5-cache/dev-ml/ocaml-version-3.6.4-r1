@@ -1,7 +1,7 @@
 BDEPEND=test? ( dev-ml/alcotest:* ) dev-lang/ocaml dev-ml/dune
 DEFINED_PHASES=compile install test
 DEPEND=>=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
-DESCRIPTION=A simple tool to indent OCaml programs
+DESCRIPTION=Manipulate, parse and generate OCaml compiler version strings
 EAPI=8
 HOMEPAGE=https://github.com/ocurrent/ocaml-version
 INHERIT=dune
@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0/3.6.4
 SRC_URI=https://github.com/ocurrent/ocaml-version/releases/download/v3.6.4/ocaml-version-3.6.4.tbz
 _eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	339df00cc31668d437589817d093748d
-_md5_=5120616c25859086a7d67e7cb47e0390
+_md5_=acdc7b0496615307d2b4a77a8239ce9d
