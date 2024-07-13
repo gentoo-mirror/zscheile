@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/ocaml-multicore/domain-local-await
 INHERIT=dune
 IUSE=+ocamlopt
-KEYWORDS=amd64 arm arm64 ~ppc ppc64 ~riscv x86
+KEYWORDS=amd64 arm arm64 ~ppc ~ppc64 ~riscv x86
 LICENSE=ISC
 RDEPEND=>=dev-lang/ocaml-4.12:=[ocamlopt=] dev-ml/thread-table:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 RESTRICT=test
 SLOT=0/1.0.1
 SRC_URI=https://github.com/ocaml-multicore/domain-local-await/releases/download/1.0.1/domain-local-await-1.0.1.tbz
 _eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	339df00cc31668d437589817d093748d
-_md5_=ff31c3a2dd3ccac3c55f26c0a624cd5e
+_md5_=3596c43e96d30fff8a9e80e9a8e2665b
