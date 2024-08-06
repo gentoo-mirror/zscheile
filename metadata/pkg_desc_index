@@ -96,6 +96,7 @@ net-analyzer/zs-wait4host 0.3.2-r2: Wait for a host to come up / shut down
 net-misc/nncp 8.8.3: a collection of utilities simplifying secure store-and-forward files, mail and command exchanging
 net-misc/zadist 0.1.2: ZADist - Zscheile Automatic Distributor Client
 net-misc/zprd 0.3.2.4: ZPRD - Zscheile Peer Routing Daemon
+sci-mathematics/lean 4.10.0: The Lean Theorem Prover
 sys-cluster/lizardfs 3.13.0_rc3: LizardFS is an Open Source Distributed File System licenced under GPLv3.
 sys-fs/duperemove 0.12 0.12_p304-r1: Btrfs and xfs deduplication utility
 sys-process/zsdoitduring 0.0.1: Zscheile Do-It-During Process Spawning Helper
