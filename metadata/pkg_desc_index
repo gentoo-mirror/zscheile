@@ -84,6 +84,7 @@ dev-ml/uring 0.8: OCaml bindings for Linux io_uring
 dev-ml/xdg 3.11.0 3.12.2 3.13.0 3.14.0 3.15.0: XDG Base Directory Specification
 dev-ml/xml-light 2.5: Minimal Xml parser and printer for OCaml
 dev-ml/yuujinchou 5.2.0: Library for hierarchical names and lexical scoping
+dev-util/redo 0.42d: Smaller, easier, more powerful, and more reliable than make
 dev-util/zcbuild 0.3: Zscheile CMake build script
 dev-util/zsgenheader 0.0.4: ZsGenHeader - generate header from c source file
 games-board/aisleriot 3.22.30: A collection of solitaire card games for GNOME
