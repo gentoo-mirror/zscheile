@@ -94,7 +94,7 @@ media-sound/zsmusicd 0.0.1 0.0.2: Zscheile Music Daemon
 net-analyzer/APC-Temp-fetch 0.0.5 0.0.7 0.0.9: APC/Schneider UPS current temperature fetchers
 net-analyzer/zs-apc-spdu-ctl 9999: Zscheile APC switched PDU control
 net-analyzer/zs-wait4host 0.3.2-r2: Wait for a host to come up / shut down
-net-misc/nncp 8.8.3: a collection of utilities simplifying secure store-and-forward files, mail and command exchanging
+net-misc/nncp 8.8.3 8.11.0: a collection of utilities simplifying secure store-and-forward files, mail and command exchanging
 net-misc/zadist 0.1.2: ZADist - Zscheile Automatic Distributor Client
 net-misc/zprd 0.3.2.4: ZPRD - Zscheile Peer Routing Daemon
 sci-mathematics/lean 4.10.0: The Lean Theorem Prover
