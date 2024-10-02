@@ -89,7 +89,7 @@ dev-util/zcbuild 0.3: Zscheile CMake build script
 dev-util/zsgenheader 0.0.4: ZsGenHeader - generate header from c source file
 games-board/aisleriot 3.22.30: A collection of solitaire card games for GNOME
 games-misc/wyel-sdl 0.0.8.1 0.0.8.2 9999: Zscheile WYEL Game - Advanced SDL version
-media-sound/bespokesynth 1.2.1: Software modular synth
+media-sound/bespokesynth 1.2.1-r1: Software modular synth
 media-sound/zsaus 0.1: Zscheile Remote Audio Suite using ALSA
 media-sound/zsmusicd 0.0.1 0.0.2: Zscheile Music Daemon
 net-analyzer/APC-Temp-fetch 0.0.5 0.0.7 0.0.9: APC/Schneider UPS current temperature fetchers
