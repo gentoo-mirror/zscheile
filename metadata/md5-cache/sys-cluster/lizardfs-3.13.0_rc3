@@ -11,5 +11,5 @@ LICENSE=GPL-3
 RDEPEND=app-text/asciidoc dev-lang/python:= dev-libs/boost:= dev-libs/judy dev-libs/libfmt:= dev-libs/spdlog:= sys-libs/pam sys-libs/zlib:= !sys-cluster/moosefs amd64? ( dev-libs/isa-l:= ) fuse? ( >=sys-fs/fuse-2.6:= ) acct-user/lizardfs
 SLOT=0
 SRC_URI=https://github.com/lizardfs/lizardfs/archive/3.13.0-rc3.tar.gz -> lizardfs-3.13.0_rc3.tar.gz
-_eclasses_=toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	10a50dfaf728b802fcfd37f8d0da9056
+_eclasses_=toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	10a50dfaf728b802fcfd37f8d0da9056
 _md5_=9c5377d1e7cae327b5f5e6e220ea2b48
